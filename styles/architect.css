@@ -152,4 +152,23 @@ nav, .banner{
   nav> ul{
     margin-right: auto;
   }
+
+  /* first section */
+
+  .team-features {
+    flex-direction: column;
+  }
+
+  .team-img{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature-btn{
+   margin-left: 100px;
+  }
+
+  .featur-title{
+    text-align: center;
+  }
 }
