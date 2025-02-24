@@ -9,6 +9,7 @@
   }
 
   /* shared styles */
+
 .flex{
     display: flex;
 }
@@ -25,6 +26,8 @@
 
 .dark-01{
   color: rgba(19, 19, 19, 1);
+  font-weight: 700;
+  font-size: 2.8rem;
 }
 
 .dark-03{
@@ -44,6 +47,7 @@
   font-size: 1.25rem;
   border: none;
 } 
+
 
   /* 1st part */
 
@@ -98,6 +102,32 @@ nav, .banner{
 
 /* section 1 - our features */
 
+.team-features{
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-top: 85px;
+  gap: 75px;
+  align-items: center;
+}
+
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  border-radius: 8px;
+}
+
+.quick-li{
+  font-weight: 500;
+  font-size: 2.8rem;
+  color: rgba(114, 114, 114, 1);
+}
+
+.features{
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #FF900E;
+}
 
 
 
