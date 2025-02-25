@@ -1,69 +1,81 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .work-sans-font {
-    font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  /* shared styles */
-
-.flex{
-    display: flex;
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.text-title{
+/* shared styles */
+
+.width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.margin{
+  margin-top: 130px;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-title {
   font-weight: 700;
   font-size: 2.8rem;
   color: rgba(19, 19, 19, 1);
 }
 
-.bg-color{
+.bg-color {
   background-color: rgba(255, 144, 14, 0.1);
 }
 
-.dark-01{
+.dark-01 {
   color: rgba(19, 19, 19, 1);
   font-weight: 700;
   font-size: 2.8rem;
 }
 
-.dark-03{
+.dark-1{
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: rgba(19, 19, 19, 1);
+}
+
+.dark-03 {
   font-weight: 400;
   font-size: 1rem;
   color: rgba(114, 114, 114, 1);
-
 }
 
 .btn-primary {
   width: 180px;
   height: 64px;
   border-radius: 8px;
-  background-color: #FF900E;
-  color: #FFFFFF;
+  background-color: #ff900e;
+  color: #ffffff;
   font-weight: 600;
   font-size: 1.25rem;
   border: none;
-} 
+}
 
-
-  /* 1st part */
+/* 1st part */
 
 /* nav styles */
 
-nav{
- align-items: center;
- justify-content: space-between;
+nav {
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav> ul{
+nav > ul {
   list-style: none;
   gap: 20px;
 }
 
-.list-link{
+.list-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 1.25rem;
@@ -72,17 +84,12 @@ nav> ul{
 
 /* banner related styles */
 
-nav, .banner{
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.banner-title{
+.banner-title {
   font-weight: 700;
   font-size: 4rem;
 }
 
-.banner-content{ 
+.banner-content {
   max-width: 860px;
   justify-content: center;
   text-align: center;
@@ -90,19 +97,19 @@ nav, .banner{
   margin-bottom: 50px;
 }
 
-.banner-description{
+.banner-description {
   margin: 32px 0;
 }
 
-.banner-img{
+.banner-img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 45px;
 }
 
-/* section 1 - our features */
+/* section 1 - (quick list of our features) */
 
-.team-features{
+.team-features {
   max-width: 1320px;
   margin: 0 auto;
   margin-top: 85px;
@@ -110,47 +117,88 @@ nav, .banner{
   align-items: center;
 }
 
-.team-img{
+.team-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   border-radius: 8px;
 }
 
-.quick-li{
+.quick-li {
   font-weight: 500;
   font-size: 2.8rem;
   color: rgba(114, 114, 114, 1);
 }
 
-.features{
+.features {
   font-weight: 700;
   font-size: 2.8rem;
-  color: #FF900E;
+  color: #ff900e;
 }
 
 
+/* second-section (features love & enjoy )*/
+
+.features-activities{
+  display: flex;
+  gap: 145px;
+}
 
 
+#feature-feelings{
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
 
+/* cards styles */
 
+.box{
+  max-width: 586px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 20px;
+}
 
+.feelings-btn{
+  width: 342px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: rgba(255, 144, 14, 1);
+  color: #ffffff;
+  border: none;
+  margin-top: -100px;
+  margin-left: -100px;
+}
 
+.decade{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.expe{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.feature-feelings-img{
+  border-radius: 10px;
+}
 
 
 /* responsive for small devices */
 
-@media screen and (max-width:576px){
-  nav{
+@media screen and (max-width: 576px) {
+  nav {
     flex-direction: column;
   }
 
-  .nav-title{
+  .nav-title {
     color: darkred;
   }
 
-  nav> ul{
-    margin-right: auto;
+  nav > ul {
+   flex-direction: column;
   }
 
   /* first section */
@@ -159,16 +207,19 @@ nav, .banner{
     flex-direction: column;
   }
 
-  .team-img{
+  .team-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .feature-btn{
-   margin-left: 100px;
+  .feature-btn {
+    margin-left: 100px;
   }
 
-  .featur-title{
+  .featur-title {
     text-align: center;
   }
 }
+
+
+
