@@ -189,6 +189,9 @@ nav > ul {
 /* responsive for small devices */
 
 @media screen and (max-width: 576px) {
+  
+  /* navbar related */
+  
   nav {
     flex-direction: column;
   }
@@ -207,19 +210,90 @@ nav > ul {
     flex-direction: column;
   }
 
-  .team-img {
+  .team-img{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2,1fr);
   }
-
+  .image{
+    width: 100%;
+  }
   .feature-btn {
     margin-left: 100px;
   }
 
-  .featur-title {
-    text-align: center;
+  
+
+
+  /* second section */
+
+  .features-activities{
+    flex-direction: column;
+  }
+
+  .feature-feelings-img{
+    width: 100%;
+  }
+
+  .feelings-btn{
+   text-align: center;
+   margin: 0 auto;
+   width: 280px;
+   height: 120px;
+   margin-top: -50%;
   }
 }
+
+
+/* responsive for medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 990px){
+  
+  /* navbar */
+
+  nav{
+    flex-direction: column;
+  }
+
+  
+  /* first section */
+
+  .team-features{
+    flex-direction: column;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+  .team-img{
+    gap: 85px;
+  }
+  
+
+  /* second section */
+
+  .features-activities{
+    flex-direction: column;
+  }
+
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .feelings-btn{
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    height: 120px;
+    margin-top: -50%;
+   }
+}
+
+
+
+
+
 
 
 
