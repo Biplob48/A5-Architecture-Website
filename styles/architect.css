@@ -237,7 +237,24 @@ nav > ul {
   margin-bottom: 130px;
 }
 
+/* footer */
 
+
+footer{
+  border-radius: 10px;
+}
+
+footer > p{
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: darkgreen;
+}
+
+.ft-margin{
+  margin-bottom: 210px;
+}
 
 
 
@@ -314,6 +331,11 @@ nav > ul {
     margin-bottom: 25px;
   }
 
+  /* footer */
+
+  .ft-margin{
+    margin-bottom: 50px;
+  }
 }
 
 
@@ -384,12 +406,18 @@ nav > ul {
    .sponsor-images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
    }
 
    .sponsors-company{
     margin-bottom: 40px;
   }
 
+  /* footer */
+
+  .ft-margin{
+    margin-bottom: 50px;
+  }
 }
 
 
