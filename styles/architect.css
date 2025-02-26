@@ -303,7 +303,16 @@ nav > ul {
     flex-direction: column;
   }
 
+  /* 4th section */
 
+  .sponsor-images{
+  flex-direction: column;
+  text-align: center;
+  }
+
+  .sponsors-company{
+    margin-bottom: 25px;
+  }
 
 }
 
@@ -366,6 +375,21 @@ nav > ul {
    .facts-description{
     width: 540px;
    }
+
+   /* 4th section */
+
+   .our-sponsors{
+    margin-top: 100px;
+   }
+   .sponsor-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   }
+
+   .sponsors-company{
+    margin-bottom: 40px;
+  }
+
 }
 
 
