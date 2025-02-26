@@ -43,7 +43,6 @@
   font-size: 1.25rem;
   color: rgba(19, 19, 19, 1);
 }
-
 .dark-03 {
   font-weight: 400;
   font-size: 1rem;
@@ -185,6 +184,50 @@ nav > ul {
   border-radius: 10px;
 }
 
+/* 3rd section */
+
+.facts-description{
+  margin-top: 24px;
+  margin-bottom: 100px;
+  
+}
+
+.facts-container{
+  display: flex;
+  justify-content: center;
+  gap: 124px;
+  margin-top: 104px;
+}
+
+.facts-card{
+  border: 2px solid #ff900e;
+  width: 240px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 45px 35px;
+}
+
+.facts-number{
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: rgba(66, 66, 66, 1);
+  margin: 5px 0;
+}
+
+.facts-name{
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: rgba(114, 114, 114, 1);
+}
+
+/* 4th section */
+
+
+
+
+
+
+
 
 /* responsive for small devices */
 
@@ -214,15 +257,14 @@ nav > ul {
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+
   .image{
     width: 100%;
   }
+
   .feature-btn {
     margin-left: 100px;
   }
-
-  
-
 
   /* second section */
 
@@ -241,6 +283,15 @@ nav > ul {
    height: 120px;
    margin-top: -50%;
   }
+
+  /* 3rd section */
+
+  .facts-container{
+    flex-direction: column;
+  }
+
+
+
 }
 
 
@@ -254,7 +305,6 @@ nav > ul {
     flex-direction: column;
   }
 
-  
   /* first section */
 
   .team-features{
@@ -269,7 +319,6 @@ nav > ul {
     gap: 85px;
   }
   
-
   /* second section */
 
   .features-activities{
@@ -280,13 +329,25 @@ nav > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .feelings-btn{
     text-align: center;
     margin: 0 auto;
     width: 280px;
     height: 120px;
     margin-top: -50%;
+   }
+
+   /* 3rd section */
+
+   .facts-container{
+    gap: 30px;
+    margin: 0 10px;
+   }
+
+   .facts-card {
+    height: 180px;
+    width: 100%;
    }
 }
 
