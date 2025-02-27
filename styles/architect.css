@@ -249,13 +249,27 @@ footer > p{
   padding: 40px 0;
   font-weight: 400;
   font-size: 1.25rem;
-  color: darkgreen;
+  color: darkred;
 }
 
 .ft-margin{
   margin-bottom: 210px;
 }
 
+
+/* hover effect */
+
+/* nav & banner */
+
+.list-link{
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+      }
+
+.list-link:hover{
+  background-color:powderblue;
+  border-radius: 8px;
+}
 
 
 
