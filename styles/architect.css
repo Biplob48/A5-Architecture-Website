@@ -429,6 +429,13 @@ footer > p {
   .team-img {
     gap: 85px;
   }
+  .our-features, .feelings-title, .feelings-description{
+    margin-left: 40px;
+  }
+
+  .feature-feelings-img, .facts-title, .facts-description{
+    margin-left: 20px;
+  }
 
   /* second section */
 
@@ -437,6 +444,10 @@ footer > p {
     margin-left: 50px;
     overflow: auto;
     margin-bottom: 40px;
+  }
+
+  .margin-left{
+    margin-left: 30px;
   }
 
   .feelings-btn {
@@ -450,6 +461,7 @@ footer > p {
   .features-activities{
     flex-direction: column;
   }
+
 
   /* 3rd section */
 
