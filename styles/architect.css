@@ -433,7 +433,10 @@ footer > p {
   /* second section */
 
   .dimension{
-    width: 90%;
+    width: 100%;
+    margin-left: 50px;
+    overflow: auto;
+    margin-bottom: 40px;
   }
 
   .feelings-btn {
@@ -474,11 +477,12 @@ footer > p {
   }
   
   .sponsors-company{
-    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     transition: 0.8s;
   }
   .sponsors-company:hover{
-    transform: rotate(2deg) scale(1.50);
+    transform: rotate(2deg) scale(1.25);
   }
 
   /* footer */
