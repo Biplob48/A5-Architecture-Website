@@ -304,7 +304,7 @@ footer > p {
 
 .btn-primary {
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 1s ease;
 }
 .btn-primary:hover{
   background-color: darkgreen;
@@ -378,7 +378,7 @@ footer > p {
   }
 
   .dimension{
-    width: auto;
+    width: 80%;
   }
 
   .facts-card{
@@ -405,7 +405,7 @@ footer > p {
   .ft-margin {
     margin-bottom: 50px;
   }
-
+}
 
 /* responsive for medium devices */
 
@@ -444,6 +444,10 @@ footer > p {
     margin-top: -50%;
   }
 
+  .features-activities{
+    flex-direction: column;
+  }
+
   /* 3rd section */
 
   .facts-container {
@@ -451,10 +455,6 @@ footer > p {
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
     margin: 0 20px;
-  }
-
-  .facts-element{
-   
   }
 
   .facts-description {
@@ -472,8 +472,14 @@ footer > p {
     grid-template-columns: repeat(3, 1fr);
     margin-left: 20px;
   }
-
   
+  .sponsors-company{
+    margin-bottom: 30px;
+    transition: 0.8s;
+  }
+  .sponsors-company:hover{
+    transform: rotate(2deg) scale(1.50);
+  }
 
   /* footer */
 
